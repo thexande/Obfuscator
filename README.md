@@ -13,26 +13,14 @@ A method to obfuscate strings in Swift.
 ## Installation
 
 #### CocoaPods
-You can use [CocoaPods](http://cocoapods.org/) to install `Obfuscator` by adding it to your `Podfile`:
+You can use [CocoaPods](http://cocoapods.org/) to install `Obfuscator` by adding it to your `Podfile` (the branch and git url won't be nessessary for long, stay tuned):
 
 ```ruby
 platform :ios, '9.0'
 use_frameworks!
-pod 'Obfuscator'
+pod 'Obfuscator', :git => 'https://github.com/thexande/Obfuscator', :tag => '1.0.0'
 ```
 
-To get the full benefits import `Obfuscator` wherever you import UIKit
-
-``` swift
-import UIKit
-import Obfuscator
-```
-#### Carthage
-Create a `Cartfile` that lists the framework and run `carthage update`. Follow the [instructions](https://github.com/Carthage/Carthage#if-youre-building-for-ios) to add `$(SRCROOT)/Carthage/Build/iOS/Obfuscator.framework` to an iOS project.
-
-```
-github "thexande/Obfuscator"
-```
 #### Manually
 1. Download and drop ```Obfuscator.swift``` in your project.  
 2. Congratulations!  
