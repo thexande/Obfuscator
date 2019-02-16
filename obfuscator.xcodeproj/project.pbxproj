@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		52D6D9871BEFF229002C0205 /* obfuscator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* obfuscator.framework */; };
-		8933C7851EB5B820000D00A4 /* obfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* obfuscator.swift */; };
-		8933C7861EB5B820000D00A4 /* obfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* obfuscator.swift */; };
-		8933C7871EB5B820000D00A4 /* obfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* obfuscator.swift */; };
-		8933C7881EB5B820000D00A4 /* obfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* obfuscator.swift */; };
+		8933C7851EB5B820000D00A4 /* Obfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* Obfuscator.swift */; };
+		8933C7861EB5B820000D00A4 /* Obfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* Obfuscator.swift */; };
+		8933C7871EB5B820000D00A4 /* Obfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* Obfuscator.swift */; };
+		8933C7881EB5B820000D00A4 /* Obfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* Obfuscator.swift */; };
 		8933C78E1EB5B82C000D00A4 /* obfuscatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* obfuscatorTests.swift */; };
 		8933C78F1EB5B82C000D00A4 /* obfuscatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* obfuscatorTests.swift */; };
 		8933C7901EB5B82D000D00A4 /* obfuscatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* obfuscatorTests.swift */; };
@@ -50,7 +50,7 @@
 		52D6D9E21BEFFF6E002C0205 /* obfuscator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = obfuscator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9F01BEFFFBE002C0205 /* obfuscator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = obfuscator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6DA0F1BF000BD002C0205 /* obfuscator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = obfuscator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8933C7841EB5B820000D00A4 /* obfuscator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = obfuscator.swift; sourceTree = "<group>"; };
+		8933C7841EB5B820000D00A4 /* Obfuscator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Obfuscator.swift; sourceTree = "<group>"; };
 		8933C7891EB5B82A000D00A4 /* obfuscatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = obfuscatorTests.swift; sourceTree = "<group>"; };
 		AD2FAA261CD0B6D800659CF4 /* obfuscator.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = obfuscator.plist; sourceTree = "<group>"; };
 		AD2FAA281CD0B6E100659CF4 /* obfuscatorTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = obfuscatorTests.plist; sourceTree = "<group>"; };
@@ -152,7 +152,7 @@
 		8933C7811EB5B7E0000D00A4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				8933C7841EB5B820000D00A4 /* obfuscator.swift */,
+				8933C7841EB5B820000D00A4 /* Obfuscator.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -463,7 +463,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8933C7851EB5B820000D00A4 /* obfuscator.swift in Sources */,
+				8933C7851EB5B820000D00A4 /* Obfuscator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +479,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8933C7871EB5B820000D00A4 /* obfuscator.swift in Sources */,
+				8933C7871EB5B820000D00A4 /* Obfuscator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,7 +487,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8933C7881EB5B820000D00A4 /* obfuscator.swift in Sources */,
+				8933C7881EB5B820000D00A4 /* Obfuscator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,7 +495,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8933C7861EB5B820000D00A4 /* obfuscator.swift in Sources */,
+				8933C7861EB5B820000D00A4 /* Obfuscator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

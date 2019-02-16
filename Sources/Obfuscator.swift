@@ -12,7 +12,7 @@ final class Dummy {
     
 }
 
-final class Obfuscator {
+public final class Obfuscator {
     
     // MARK: - Variables
     
@@ -21,11 +21,11 @@ final class Obfuscator {
     
     // MARK: - Initialization
     
-    init() {
+    public init() {
         self.salt = "\(String(describing: Dummy.self))\(String(describing: NSObject.self))"
     }
     
-    init(with salt: String) {
+    public init(with salt: String) {
         self.salt = salt
     }
     
@@ -40,7 +40,7 @@ final class Obfuscator {
      
      - returns: the obfuscated string in a byte array
      */
-    func bytesByObfuscatingString(string: String) -> [UInt8] {
+    public func bytesByObfuscatingString(string: String) -> [UInt8] {
         let text = [UInt8](string.utf8)
         let cipher = [UInt8](self.salt.utf8)
         let length = cipher.count
@@ -70,7 +70,7 @@ final class Obfuscator {
      
      - returns: the original string
      */
-    func reveal(key: [UInt8]) -> String {
+    public func reveal(key: [UInt8]) -> String {
         let cipher = [UInt8](self.salt.utf8)
         let length = cipher.count
         
